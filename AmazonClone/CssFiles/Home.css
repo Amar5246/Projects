@@ -176,7 +176,7 @@ body
     background-color: transparent; 
     position: relative;
     top: -260px;   
-    margin-left: 17px;
+    margin-left: 36px;
     
 }
 .block{ 
@@ -226,11 +226,11 @@ hr{
     color: #007185; 
 } 
 .card-block-2{
-    height: 2000px;
+    height: 1260px;
     width: 1440px;   
     position: relative;
     top: -265px;
-    margin-left: 17px;
+    margin-left: 36px;
 } 
 .cards-2{
     height: 342px;
@@ -327,6 +327,121 @@ hr{
     text-decoration: none; 
     font-size: 12px;
 } 
+.signINNN{
+    background-color: #ffffff; 
+    position: relative;
+    top: 25px;
+} 
+.rhf-divider{
+    border-top: 1px solid #DDD;
+    height: 17px;
+    position: relative;
+    top: 51px;
+}
+.sign-in-block{
+    height: 242px;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 
 
+.recom{
+    height: 20px;
+    width: 100%; 
+    text-align: center; 
+    font-size: 13px;
+} 
+.signInTag{
+    cursor: pointer;
+    background-position: right -170px;
+    display: block;
+    height: 28px; 
+    width: 230;
+    position: relative;
+    color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093; 
+    
+}
+.signInLink{
+    max-width: 230px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 230px;
+    display: block;
+    background-position: -10px -170px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+} 
+.start-Link{
+    font-size: 11px;
+} 
+.footer{
+    height: 767px; 
+    width: 100%;
+    background-color: #232f3e; 
+    
+} 
+.BackToTop{
+    margin-bottom: 40px;
+    background-color: #37475A; 
+    text-decoration: none; 
+    color: white;
+}
+#span{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+} 
+.footerContent{
+    display: table;
+    margin: 0 auto;
+} 
+.navfooterlinkcol{
+    display: table-cell;
+    padding: 0 10px; 
+}  
 
+.navfootercallspanner{
+    display: table-cell;
+    padding: 0 10px; 
+    width: 100px;
+} 
+.navfooterCallhead{
+    font-weight: 700;
+    color: #FFF;
+}
+.navfooterlinkcol ul li{
+    list-style-type: none;
+    white-space: nowrap; 
+    color: #cccccc;
+    margin: 0 0 10px;
+} 
+.nav-footer-line{
+    border-top: 1px solid #3a4553;
+    margin-top: 40px;
+}
+a:hover{
+    text-decoration: none;
+}  
+.navfooterline{
+    font-family: inherit;
+    color: #DDD;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    white-space: nowrap;
+    height: 68px;
+    width: 1000px;
+    margin: 30px auto 15px
+}
 
