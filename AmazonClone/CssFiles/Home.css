@@ -255,25 +255,78 @@ hr{
 } 
 .coursal2{ 
     height: 270px;
-    margin-top: 8px;
+    margin-top: 8px; 
+    position: relative; 
+    overflow: hidden;
 }  
 .list{ 
     display: flex;
     height: 260px; 
     margin-bottom: 0px; 
-    list-style-type: none;
+    list-style-type: none; 
+    position: absolute;  
+    transition: 0.5s;  
 } 
 .list-iteam{ 
-    width: 240px;
+    width: 225px;
     height: 260px;
-    background: #E3E6E6;
+    background: rgba(15,17,17,.03); 
+    margin-right: 8px;
 }
-.btns{ 
+.btns-p{ 
     display: block;
     height: 100px;
     width: 45px; 
      
     position: relative;
     top: -146px;
-}
+} 
+ 
+.coursal2-cont{
+    width: 100%; 
+    height: 100%; 
+} 
+.img-2{
+    width: 225px; 
+    height: 200px;
+    margin-bottom: 8px; 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 8px; 
+    padding-bottom: 8px;
+}  
+.prev-btn{
+    width: 40px;
+    height: 100px; 
+    position: relative; 
+    top: 60px;
+}  
+.next-btn{
+    width: 40px;
+    height: 100px; 
+    position: relative; 
+    top: -39px;
+    left: 1346px;
+} 
+.slide-btn{
+    width: 100%; 
+    height:100%; 
+    outline-color: rgb(28, 230, 146); 
+} 
+.deal{
+    width: 225px; 
+    height: 24px;
+} 
+.badge{ 
+    height: 24px;
+    background-color: rgb(204, 1, 1); 
+    color: white;
+} 
+.msg{
+    color:#CC0C39;
+    text-decoration: none; 
+    font-size: 12px;
+} 
+
+
 
